@@ -6,8 +6,8 @@ using namespace std;
 
 void printStudentInfo() {
     setlocale(LC_ALL, "Russian");
-    std::cout << "Student: ×åêóøèí Ìàêñèì Àðòåìîâè÷" << std::endl;
-    std::cout << "Group: Ì10-134ÁÂ-25" << std::endl;
+    std::cout << "Student: Ð§ÐµÐºÑƒÑˆÐ¸Ð½ ÐœÐ°ÐºÑÐ¸Ð¼ ÐÑ€Ñ‚ÐµÐ¼Ð¾Ð²Ð¸Ñ‡" << std::endl;
+    std::cout << "Group: Ðœ10-137Ð‘Ð’-25" << std::endl;
     std::cout << "Task: task_1" << std::endl;
 }
 
@@ -38,4 +38,5 @@ int main() {
     printVector(stringVec);
 
     return 0;
+
 }
